@@ -19,12 +19,12 @@ public class CandidateController {
     }
 
     @GetMapping("/get/candidate/{id}")
-    public Candidate getCandidateById(@PathVariable int id){
+    public Candidate getCandidateById(@PathVariable int id) {
         return candidateRepository.findByCandidateId(Long.valueOf(id));
     }
 
     @PostMapping("/save/candidate")
-    public void saveCandidate(@RequestBody Candidate candidate){
+    public void saveCandidate(@RequestBody Candidate candidate) {
         candidateRepository.save(candidate);
     }
 

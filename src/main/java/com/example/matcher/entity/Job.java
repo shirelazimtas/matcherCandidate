@@ -3,7 +3,6 @@ package com.example.matcher.entity;
 import jakarta.persistence.*;
 
 
-
 @Entity
 @Table(name = "job")
 public class Job {

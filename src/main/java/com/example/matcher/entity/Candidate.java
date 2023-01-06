@@ -15,7 +15,7 @@ import java.util.Set;
 @Setter
 @Entity
 @Table(name = "candidate")
-public class Candidate  {
+public class Candidate {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,14 +25,14 @@ public class Candidate  {
     @Column(name = "candidateName")
     private String candidateName;
 
-   @ManyToMany
-   @JoinTable(name = "candidate_skill",
-           joinColumns = @JoinColumn(name = "candidate_id"),
-           inverseJoinColumns = @JoinColumn(name = "skill_id")
-   )
-   public Set<Skill> assignedSkill = new HashSet<>();
+    @ManyToMany
+    @JoinTable(name = "candidate_skill",
+            joinColumns = @JoinColumn(name = "candidate_id"),
+            inverseJoinColumns = @JoinColumn(name = "skill_id")
+    )
+    public Set<Skill> assignedSkill = new HashSet<>();
 
-    @Column(name="title")
+    @Column(name = "title")
     private String title;
 
     @Column(name = "workExperience")
