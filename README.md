@@ -1,4 +1,4 @@
-# matcherCandidate
+# Matcher Candidate
 
 “Matcher” application,
 The application will find for the director of the human resources department the most suitable candidates for the job.
