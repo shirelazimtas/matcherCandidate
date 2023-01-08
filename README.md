@@ -2,7 +2,7 @@
 
 “Matcher” application,
 The application will find for the director of the human resources department the most suitable candidates for the job.
-The aplication will return a list according to who is most suitable for the job and then the people who are least suitable
+The aplication will return one list according to who is most suitable for the job and then the people who are least suitable
 
 1. The aplication will find the best candidates base on simimlar tilte job and title of candidates and suiable skill sorted by Work Experience years.
 <img width="764" alt="image" src="https://user-images.githubusercontent.com/83716607/211018170-f6fc84e0-fca1-4ee8-9906-baf6d18a02b6.png">
